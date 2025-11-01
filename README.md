@@ -11,7 +11,7 @@ Advanced anti-cheat bypass library for Roblox with two versions: **Lite** (free)
 ### 🆓 Lite Version (Free)
 **Perfect for basic protection and casual use**
 ```
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/ZenAntiCheatBypass/main/Lite.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZenTheScripter/ZenAntiCheatBypass/main/ZenAntiCheatBypasser.lua"))() ```
 
 💎 Premium Version (Advanced)
 Maximum protection for serious scripting
