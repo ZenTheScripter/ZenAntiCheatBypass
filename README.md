@@ -12,11 +12,10 @@ Advanced anti-cheat bypass library for Roblox with two versions: **Lite** (free)
 **Perfect for basic protection and casual use**
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/ZenAntiCheatBypass/main/Lite.lua"))()
+
 💎 Premium Version (Advanced)
 Maximum protection for serious scripting
 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/ZenAntiCheatBypass/main/Premium.lua"))()
 🚀 Quick Start
 Basic Usage (Both Versions)
 
@@ -29,7 +28,7 @@ print("Version:", ZenACB.Version)
 
 -- Your scripts here (protected)
 Advanced Integration
-lua
+
 -- Load Premium version
 local ZenACB = loadstring(game:HttpGet("PREMIUM_URL"))()
 
@@ -41,6 +40,7 @@ if ZenACB.Status == "MAXIMUM_PROTECTION" then
     print("✅ Safe to execute scripts")
     loadstring(game:HttpGet("YOUR_SCRIPT_URL"))()
 end
+
 📊 Feature Comparison
 Feature	Lite Version	Premium Version
 Basic Anti-Kick	✅	✅
@@ -56,6 +56,7 @@ Metatable Protection	❌	✅
 Threat Scanning	Basic	Advanced
 Auto Adaptation	❌	✅
 Performance Impact	Low	Medium
+
 🛡️ Lite Version Details
 Installation
 
@@ -80,7 +81,6 @@ Lite Version Output
 💎 Premium Version Details
 Installation
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YourUsername/ZenAntiCheatBypass/main/Premium.lua"))()
 Features
 Advanced Anti-Cheat Detection
 
@@ -119,6 +119,7 @@ _G.ZenACB_Config = {
     HideFromDetection = true,
     ProtectionLevel = "MAXIMUM"
 }
+
 🔍 Threat Detection
 Lite Version
 Basic kick/ban pattern detection
@@ -177,6 +178,7 @@ Methods (Premium Only)
 ZenACB.ScanForThreats()          -- Manual threat scan
 ZenACB.GetProtectionReport()     -- Detailed protection report
 ZenACB.UpdateProtection()        -- Force protection update
+
 ❓ FAQ
 Q: Which version should I use?
 A: Use Lite for basic protection in low-risk environments. Use Premium for maximum security in games with strong anti-cheat.
