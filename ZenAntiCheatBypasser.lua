@@ -1,6 +1,5 @@
 -- ZenAntiCheatBypasser.lua - Ultra-Fast Version
 return (function()
-    do
         -- 🎯 SCRIPT INFORMATION
         local SCRIPT_VERSION = "Ultra-Fast"
         local SCRIPT_NUMBER = "v2.1"
@@ -121,7 +120,6 @@ return (function()
             print("   - Network protection")
             print("   - And much more...")
         end)
-    end
 
     return {
         Version = SCRIPT_VERSION .. " " .. SCRIPT_NUMBER,
