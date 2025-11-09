@@ -29,7 +29,7 @@ print("Version:", ZenACB.Version)
 -- Your scripts here (protected)
 Advanced Integration
 
--- Load Premium version
+ Load Premium version
 local ZenACB = loadstring(game:HttpGet("PREMIUM_URL"))()
 
 -- Wait for initialization
